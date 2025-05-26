@@ -11,7 +11,7 @@ export default async function EnLayout({
   const messages = await getMessages({locale: 'en'});
 
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
         <NextIntlClientProvider messages={messages} locale="en">
           {children}

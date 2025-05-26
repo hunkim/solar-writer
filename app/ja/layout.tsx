@@ -11,7 +11,7 @@ export default async function JaLayout({
   const messages = await getMessages({locale: 'ja'});
 
   return (
-    <html lang="ja">
+    <html lang="ja" suppressHydrationWarning>
       <body>
         <NextIntlClientProvider messages={messages} locale="ja">
           {children}

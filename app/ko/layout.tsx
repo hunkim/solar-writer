@@ -11,7 +11,7 @@ export default async function KoLayout({
   const messages = await getMessages({locale: 'ko'});
 
   return (
-    <html lang="ko">
+    <html lang="ko" suppressHydrationWarning>
       <body>
         <NextIntlClientProvider messages={messages} locale="ko">
           {children}

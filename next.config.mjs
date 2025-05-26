@@ -13,9 +13,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  experimental: {
-    serverComponentsExternalPackages: ['@mendable/firecrawl-js'],
-  },
+  serverExternalPackages: ['@mendable/firecrawl-js'],
 }
 
 export default withNextIntl(nextConfig);

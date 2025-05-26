@@ -167,6 +167,33 @@ export default function SolarWriterApp() {
         )}
       </main>
 
+      {/* Footer */}
+      <footer className="border-t bg-white/80 backdrop-blur-sm mt-auto">
+        <div className="container mx-auto px-4 py-6">
+          <div className="text-center text-sm text-muted-foreground">
+            <p className="mb-2">
+              <a 
+                href="https://console.upstage.ai" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="font-medium text-blue-600 hover:text-blue-800 underline"
+              >
+                Upstage Document ParseとSolar LLM
+              </a>によって動作しています
+            </p>
+            <p>
+              <a 
+                href="https://github.com/hunkim/solar-writer" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="font-medium text-blue-600 hover:text-blue-800 underline"
+              >
+                GitHub
+              </a>でオープンソースとして公開されています
+            </p>
+          </div>
+        </div>
+      </footer>
 
     </div>
   )
