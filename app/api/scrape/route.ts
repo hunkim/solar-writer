@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server'
 import FirecrawlApp from '@mendable/firecrawl-js'
 
+// Force this API route to use Node.js runtime instead of Edge Runtime
+export const runtime = 'nodejs'
+
 export async function POST(request: NextRequest) {
   try {
     const { url } = await request.json()

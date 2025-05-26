@@ -1,5 +1,8 @@
 import { NextResponse } from "next/server"
 
+// Force this API route to use Node.js runtime instead of Edge Runtime
+export const runtime = 'nodejs'
+
 interface UpstageDocumentParseResponse {
   api: string
   content: {
