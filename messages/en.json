@@ -1,0 +1,148 @@
+{
+  "app": {
+    "title": "Solar Writer",
+    "subtitle": "AI-Powered Content Creation",
+    "newProject": "New Project"
+  },
+  "phases": {
+    "setup": "Setup",
+    "writing": "Writing",
+    "refine": "Refine"
+  },
+  "input": {
+    "title": "Create Your Content Project",
+    "subtitle": "Provide your requirements and let AI craft professional content for you"
+  },
+  "form": {
+    "projectTitle": "Project Title",
+    "projectTitlePlaceholder": "Enter a descriptive title for your content project",
+    "projectTitleDescription": "A clear, descriptive title that summarizes your content project",
+    "contentType": "Content Type",
+    "contentTypeDescription": "Choose the type of content you want to create",
+    "contentTypes": {
+      "article": "Article",
+      "blogPost": "Blog Post",
+      "essay": "Essay",
+      "report": "Report",
+      "whitepaper": "Whitepaper",
+      "newsletter": "Newsletter"
+    },
+    "sources": "Sources & Research Material",
+    "sourcesDescription": "Provide sources, references, and background material to inform your content",
+    "sourcesPlaceholder": "Paste URLs, text excerpts, research notes, or any reference material here...",
+    "urls": "Reference URLs",
+    "urlsPlaceholder": "https://example.com",
+    "urlsDescription": "Add relevant URLs for research and citation",
+    "addUrl": "Add URL",
+    "files": "Upload Files",
+    "filesDescription": "Upload documents, PDFs, or text files for reference",
+    "uploadFiles": "Choose files or drag and drop",
+    "outline": "Content Outline",
+    "outlineDescription": "Define the structure and key points for your content",
+    "outlinePlaceholder": "Enter your content outline here. You can use bullet points, numbered lists, or paragraphs to describe the structure and main points you want to cover...",
+    "createProject": "Create Project",
+    "dragAndDrop": "Drag and drop files here",
+    "selectFiles": "Select files",
+    "removeFile": "Remove file",
+    "processing": "Processing...",
+    "analyzingUrl": "Analyzing URL...",
+    "failedToAnalyze": "Failed to analyze URL"
+  },
+  "writing": {
+    "subtitle": "Watch as your content comes to life, section by section",
+    "generating": "Generating",
+    "completed": "Completed",
+    "pending": "Pending",
+    "finalizing": "Finalizing your content...",
+    "almostDone": "Almost done! Putting the finishing touches on your content.",
+    "complete": "Writing Complete!",
+    "completeDescription": "Your content has been generated successfully.",
+    "proceedToChat": "Proceed to Refinement"
+  },
+  "chat": {
+    "title": "Refine Your Content",
+    "subtitle": "Chat with AI to perfect your content - adjust tone, style, or make specific changes",
+    "placeholder": "Ask me to revise, expand, or modify your content...",
+    "send": "Send",
+    "copy": "Copy",
+    "download": "Download",
+    "wordCount": "{count} words",
+    "streamingComplete": "Content generation complete",
+    "yourMessage": "Your message",
+    "aiResponse": "AI Response"
+  },
+  "language": {
+    "select": "Select Language",
+    "english": "English",
+    "korean": "한국어",
+    "japanese": "日本語"
+  },
+  "progress": {
+    "title": "AI Content Generation",
+    "phases": {
+      "structureAnalysis": "Structure Analysis",
+      "contentCreation": "Content Creation",
+      "finalPolish": "Final Polish"
+    },
+    "descriptions": {
+      "structureAnalysisDescription": "Analyzing your outline and optimizing section structure",
+      "contentCreationDescription": "Generating high-quality content with real-time search enhancement",
+      "finalPolishDescription": "Final Polish: Ensuring consistent numbering, unified tone, standardized formatting, and professional cohesion",
+      "optimizingSections": "Optimizing sections",
+      "aiWritingWithLiveSearch": "AI writing with live search",
+      "refiningCoherence": "Refining coherence"
+    },
+    "status": {
+      "initializing": "Initializing...",
+      "analyzing": "Analyzing your outline and refining sections...",
+      "preparingToWrite": "Preparing to write: {title}",
+      "sectionCompleted": "Section completed: {title}",
+      "finalPolishStandardizing": "Final Polish: Standardizing formatting, unifying tone, and ensuring consistency...",
+      "transitioningToFinalPolish": "Transitioning to Final Polish...",
+      "contentGenerationCompleted": "Content generation completed successfully!",
+      "preparingContentGeneration": "Preparing content generation..."
+    },
+    "analysis": {
+      "analyzingContentType": "Analyzing content type and requirements",
+      "examiningSourceMaterials": "Examining source materials",
+      "optimizingSectionStructure": "Optimizing section structure",
+      "generatingEnhancedSections": "Generating enhanced sections",
+      "finalizingStructure": "Finalizing structure",
+      "sectionsOptimized": "✓ {count} sections optimized",
+      "sectionDescriptionsEnhanced": "✓ Section descriptions enhanced",
+      "keyPointsIdentified": "✓ Key points identified",
+      "contentFlowOptimized": "✓ Content flow optimized"
+    },
+    "research": {
+      "aiResearchInProgress": "AI Research in Progress",
+      "aiWritingEnhancedContent": "AI Writing Enhanced Content",
+      "keywordsExtracted": "🔍 Keywords Extracted:",
+      "foundCurrentSources": "📊 Found {count} Current Sources:",
+      "searchingForCurrentInformation": "Searching for current information...",
+      "integratingSearchResults": "Integrating search results into content...",
+      "analyzingContentToExtractKeywords": "Analyzing content to extract search keywords..."
+    },
+    "sectionStatus": {
+      "pending": "Pending",
+      "writing": "Writing",
+      "completed": "Complete"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "paste": "Paste",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "refresh": "Refresh",
+    "retry": "Retry"
+  }
+} 

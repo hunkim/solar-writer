@@ -1,0 +1,148 @@
+{
+  "app": {
+    "title": "Solar Writer",
+    "subtitle": "AI 기반 콘텐츠 제작",
+    "newProject": "새 프로젝트"
+  },
+  "phases": {
+    "setup": "설정",
+    "writing": "작성",
+    "refine": "수정"
+  },
+  "input": {
+    "title": "콘텐츠 프로젝트 생성",
+    "subtitle": "요구사항을 제공하면 AI가 전문적인 콘텐츠를 제작해드립니다"
+  },
+  "form": {
+    "projectTitle": "프로젝트 제목",
+    "projectTitlePlaceholder": "콘텐츠 프로젝트에 대한 설명적인 제목을 입력하세요",
+    "projectTitleDescription": "콘텐츠 프로젝트를 요약하는 명확하고 설명적인 제목",
+    "contentType": "콘텐츠 유형",
+    "contentTypeDescription": "생성하고자 하는 콘텐츠 유형을 선택하세요",
+    "contentTypes": {
+      "article": "기사",
+      "blogPost": "블로그 포스트",
+      "essay": "에세이",
+      "report": "보고서",
+      "whitepaper": "백서",
+      "newsletter": "뉴스레터"
+    },
+    "sources": "참고 자료 및 연구 자료",
+    "sourcesDescription": "콘텐츠에 반영할 참고 자료, 레퍼런스, 배경 자료를 제공하세요",
+    "sourcesPlaceholder": "URL, 텍스트 발췌, 연구 노트 또는 기타 참고 자료를 여기에 붙여넣기하세요...",
+    "urls": "참고 URL",
+    "urlsPlaceholder": "https://example.com",
+    "urlsDescription": "연구 및 인용을 위한 관련 URL을 추가하세요",
+    "addUrl": "URL 추가",
+    "files": "파일 업로드",
+    "filesDescription": "참고용 문서, PDF 또는 텍스트 파일을 업로드하세요",
+    "uploadFiles": "파일을 선택하거나 드래그 앤 드롭하세요",
+    "outline": "콘텐츠 개요",
+    "outlineDescription": "콘텐츠의 구조와 핵심 포인트를 정의하세요",
+    "outlinePlaceholder": "콘텐츠 개요를 여기에 입력하세요. 불릿 포인트, 번호 목록 또는 단락을 사용하여 구조와 다루고자 하는 주요 포인트를 설명할 수 있습니다...",
+    "createProject": "프로젝트 생성",
+    "dragAndDrop": "여기에 파일을 드래그 앤 드롭하세요",
+    "selectFiles": "파일 선택",
+    "removeFile": "파일 제거",
+    "processing": "처리 중...",
+    "analyzingUrl": "URL 분석 중...",
+    "failedToAnalyze": "URL 분석 실패"
+  },
+  "writing": {
+    "subtitle": "섹션별로 콘텐츠가 생성되는 과정을 지켜보세요",
+    "generating": "생성 중",
+    "completed": "완료",
+    "pending": "대기 중",
+    "finalizing": "콘텐츠를 마무리하는 중...",
+    "almostDone": "거의 완료되었습니다! 콘텐츠에 마지막 손질을 가하고 있습니다.",
+    "complete": "작성 완료!",
+    "completeDescription": "콘텐츠가 성공적으로 생성되었습니다.",
+    "proceedToChat": "수정 단계로 이동"
+  },
+  "chat": {
+    "title": "콘텐츠 수정",
+    "subtitle": "AI와 채팅하여 콘텐츠를 완성하세요 - 톤, 스타일 조정 또는 특정 변경사항 적용",
+    "placeholder": "콘텐츠 수정, 확장 또는 변경을 요청하세요...",
+    "send": "전송",
+    "copy": "복사",
+    "download": "다운로드",
+    "wordCount": "{count}단어",
+    "streamingComplete": "콘텐츠 생성 완료",
+    "yourMessage": "귀하의 메시지",
+    "aiResponse": "AI 응답"
+  },
+  "language": {
+    "select": "언어 선택",
+    "english": "English",
+    "korean": "한국어",
+    "japanese": "日本語"
+  },
+  "progress": {
+    "title": "AI 콘텐츠 생성",
+    "phases": {
+      "structureAnalysis": "구조 분석",
+      "contentCreation": "콘텐츠 생성",
+      "finalPolish": "최종 편집"
+    },
+    "descriptions": {
+      "structureAnalysisDescription": "개요를 분석하고 섹션 구조를 최적화합니다",
+      "contentCreationDescription": "실시간 검색 향상 기능으로 고품질 콘텐츠를 생성합니다",
+      "finalPolishDescription": "최종 편집: 일관된 번호 매기기, 통일된 톤, 표준화된 서식 및 전문적 응집력 확보",
+      "optimizingSections": "섹션 최적화",
+      "aiWritingWithLiveSearch": "실시간 검색 기반 AI 작성",
+      "refiningCoherence": "일관성 개선"
+    },
+    "status": {
+      "initializing": "초기화 중...",
+      "analyzing": "개요를 분석하고 섹션을 개선하고 있습니다...",
+      "preparingToWrite": "작성 준비 중: {title}",
+      "sectionCompleted": "섹션 완료: {title}",
+      "finalPolishStandardizing": "최종 편집: 서식 표준화, 톤 통일, 일관성 확보 중...",
+      "transitioningToFinalPolish": "최종 편집으로 전환 중...",
+      "contentGenerationCompleted": "콘텐츠 생성이 성공적으로 완료되었습니다!",
+      "preparingContentGeneration": "콘텐츠 생성 준비 중..."
+    },
+    "analysis": {
+      "analyzingContentType": "콘텐츠 유형 및 요구사항 분석",
+      "examiningSourceMaterials": "소스 자료 검토",
+      "optimizingSectionStructure": "섹션 구조 최적화",
+      "generatingEnhancedSections": "향상된 섹션 생성",
+      "finalizingStructure": "구조 완성",
+      "sectionsOptimized": "✓ {count}개 섹션 최적화됨",
+      "sectionDescriptionsEnhanced": "✓ 섹션 설명 개선됨",
+      "keyPointsIdentified": "✓ 핵심 포인트 식별됨",
+      "contentFlowOptimized": "✓ 콘텐츠 흐름 최적화됨"
+    },
+    "research": {
+      "aiResearchInProgress": "AI 리서치 진행 중",
+      "aiWritingEnhancedContent": "AI 향상 콘텐츠 작성",
+      "keywordsExtracted": "🔍 키워드 추출됨:",
+      "foundCurrentSources": "📊 {count}개의 최신 소스를 찾았습니다:",
+      "searchingForCurrentInformation": "최신 정보를 검색하고 있습니다...",
+      "integratingSearchResults": "검색 결과를 콘텐츠에 통합하고 있습니다...",
+      "analyzingContentToExtractKeywords": "검색 키워드 추출을 위해 콘텐츠를 분석하고 있습니다..."
+    },
+    "sectionStatus": {
+      "pending": "대기 중",
+      "writing": "작성 중",
+      "completed": "완료"
+    }
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류",
+    "success": "성공",
+    "cancel": "취소",
+    "confirm": "확인",
+    "close": "닫기",
+    "save": "저장",
+    "edit": "편집",
+    "delete": "삭제",
+    "paste": "붙여넣기",
+    "search": "검색",
+    "filter": "필터",
+    "sort": "정렬",
+    "refresh": "새로고침",
+    "retry": "재시도"
+  }
+} 

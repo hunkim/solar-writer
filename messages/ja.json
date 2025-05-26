@@ -1,0 +1,148 @@
+{
+  "app": {
+    "title": "Solar Writer",
+    "subtitle": "AI搭載コンテンツ作成",
+    "newProject": "新しいプロジェクト"
+  },
+  "phases": {
+    "setup": "設定",
+    "writing": "執筆",
+    "refine": "改良"
+  },
+  "input": {
+    "title": "コンテンツプロジェクトを作成",
+    "subtitle": "要件を提供すると、AIがプロフェッショナルなコンテンツを作成します"
+  },
+  "form": {
+    "projectTitle": "プロジェクトタイトル",
+    "projectTitlePlaceholder": "コンテンツプロジェクトの説明的なタイトルを入力してください",
+    "projectTitleDescription": "コンテンツプロジェクトを要約する明確で説明的なタイトル",
+    "contentType": "コンテンツタイプ",
+    "contentTypeDescription": "作成したいコンテンツのタイプを選択してください",
+    "contentTypes": {
+      "article": "記事",
+      "blogPost": "ブログ記事",
+      "essay": "エッセイ",
+      "report": "レポート",
+      "whitepaper": "ホワイトペーパー",
+      "newsletter": "ニュースレター"
+    },
+    "sources": "情報源と研究資料",
+    "sourcesDescription": "コンテンツに反映する情報源、参考文献、背景資料を提供してください",
+    "sourcesPlaceholder": "URL、テキストの抜粋、研究ノート、またはその他の参考資料をここに貼り付けてください...",
+    "urls": "参考URL",
+    "urlsPlaceholder": "https://example.com",
+    "urlsDescription": "研究と引用のための関連URLを追加してください",
+    "addUrl": "URL追加",
+    "files": "ファイルアップロード",
+    "filesDescription": "参考用のドキュメント、PDF、またはテキストファイルをアップロードしてください",
+    "uploadFiles": "ファイルを選択するかドラッグ&ドロップしてください",
+    "outline": "コンテンツアウトライン",
+    "outlineDescription": "コンテンツの構造と重要なポイントを定義してください",
+    "outlinePlaceholder": "コンテンツのアウトラインをここに入力してください。箇条書き、番号リスト、または段落を使用して、構造とカバーしたい主要なポイントを説明できます...",
+    "createProject": "プロジェクト作成",
+    "dragAndDrop": "ここにファイルをドラッグ&ドロップしてください",
+    "selectFiles": "ファイル選択",
+    "removeFile": "ファイル削除",
+    "processing": "処理中...",
+    "analyzingUrl": "URL解析中...",
+    "failedToAnalyze": "URL解析に失敗しました"
+  },
+  "writing": {
+    "subtitle": "セクションごとにコンテンツが生成される様子をご覧ください",
+    "generating": "生成中",
+    "completed": "完了",
+    "pending": "待機中",
+    "finalizing": "コンテンツを仕上げています...",
+    "almostDone": "もうすぐ完了です！コンテンツに最終的な仕上げを行っています。",
+    "complete": "執筆完了！",
+    "completeDescription": "コンテンツが正常に生成されました。",
+    "proceedToChat": "改良段階に進む"
+  },
+  "chat": {
+    "title": "コンテンツを改良",
+    "subtitle": "AIとチャットしてコンテンツを完璧に - トーン、スタイルの調整や具体的な変更を行う",
+    "placeholder": "コンテンツの修正、拡張、または変更を依頼してください...",
+    "send": "送信",
+    "copy": "コピー",
+    "download": "ダウンロード",
+    "wordCount": "{count}文字",
+    "streamingComplete": "コンテンツ生成完了",
+    "yourMessage": "あなたのメッセージ",
+    "aiResponse": "AI応答"
+  },
+  "language": {
+    "select": "言語を選択",
+    "english": "English",
+    "korean": "한국어",
+    "japanese": "日本語"
+  },
+  "progress": {
+    "title": "AIコンテンツ生成",
+    "phases": {
+      "structureAnalysis": "構造解析",
+      "contentCreation": "コンテンツ作成",
+      "finalPolish": "最終編集"
+    },
+    "descriptions": {
+      "structureAnalysisDescription": "アウトラインを分析し、セクション構造を最適化しています",
+      "contentCreationDescription": "リアルタイム検索拡張機能により高品質コンテンツを生成しています",
+      "finalPolishDescription": "最終編集: 一貫した番号付け、統一されたトーン、標準化されたフォーマット、専門的な結束力を確保",
+      "optimizingSections": "セクション最適化",
+      "aiWritingWithLiveSearch": "ライブ検索付きAI執筆",
+      "refiningCoherence": "一貫性の改善"
+    },
+    "status": {
+      "initializing": "初期化中...",
+      "analyzing": "アウトラインを分析し、セクションを改善しています...",
+      "preparingToWrite": "執筆準備中: {title}",
+      "sectionCompleted": "セクション完了: {title}",
+      "finalPolishStandardizing": "最終編集: フォーマット標準化、トーン統一、一貫性確保中...",
+      "transitioningToFinalPolish": "最終編集に移行中...",
+      "contentGenerationCompleted": "コンテンツ生成が正常に完了しました！",
+      "preparingContentGeneration": "コンテンツ生成準備中..."
+    },
+    "analysis": {
+      "analyzingContentType": "コンテンツタイプと要件の分析",
+      "examiningSourceMaterials": "ソース資料の検証",
+      "optimizingSectionStructure": "セクション構造の最適化",
+      "generatingEnhancedSections": "拡張セクションの生成",
+      "finalizingStructure": "構造の完成",
+      "sectionsOptimized": "✓ {count}セクション最適化済み",
+      "sectionDescriptionsEnhanced": "✓ セクション説明拡張済み",
+      "keyPointsIdentified": "✓ 重要ポイント特定済み",
+      "contentFlowOptimized": "✓ コンテンツフロー最適化済み"
+    },
+    "research": {
+      "aiResearchInProgress": "AIリサーチ進行中",
+      "aiWritingEnhancedContent": "AI拡張コンテンツ執筆",
+      "keywordsExtracted": "🔍 キーワード抽出完了:",
+      "foundCurrentSources": "📊 {count}件の最新ソースを発見:",
+      "searchingForCurrentInformation": "最新情報を検索しています...",
+      "integratingSearchResults": "検索結果をコンテンツに統合しています...",
+      "analyzingContentToExtractKeywords": "検索キーワード抽出のためにコンテンツを分析しています..."
+    },
+    "sectionStatus": {
+      "pending": "待機中",
+      "writing": "執筆中",
+      "completed": "完了"
+    }
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "success": "成功",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "close": "閉じる",
+    "save": "保存",
+    "edit": "編集",
+    "delete": "削除",
+    "paste": "貼り付け",
+    "search": "検索",
+    "filter": "フィルター",
+    "sort": "並び替え",
+    "refresh": "更新",
+    "retry": "再試行"
+  }
+} 
